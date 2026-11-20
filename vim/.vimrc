@@ -1,4 +1,6 @@
 set nocompatible
+" Yank to the system clipboard: unnamed on macOS, unnamedplus on Linux.
+set clipboard=unnamed,unnamedplus
 filetype off
 
 set rtp+=/usr/local/opt/fzf
